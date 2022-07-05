@@ -16,9 +16,9 @@ Registro::Registro(/* args */){
 Registro:: ~Registro(){
 }
 
-void Registro::novoRegistro(){
+void Registro::novoRegistro(std::string User, std::string password, int id, std:: string email){
  if (head == nullptr){
-         
+    
  }
  
 }

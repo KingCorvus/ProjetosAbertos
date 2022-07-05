@@ -10,7 +10,10 @@ class Registro{
     Registro();
     ~Registro();
     
-    void novoRegistro();
+    void novoRegistro(std::string User, 
+                     std::string password,
+                     int id, 
+                     std:: string email);
     
     
  private:
